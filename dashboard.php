@@ -43,7 +43,7 @@
 							class="navbar-nav ms-auto text-center pt-3 pt-lg-0 align-items-lg-center"
 						>
 							<!-- Welcome text -->
-							<li class="nav-item d-none d-lg-block">
+							<li class="nav-item d-lg-block">
 								<span class="text-capitalize me-2">
 									Selamat Datang, <strong class="text-primary">Admin</strong>!
 								</span>
@@ -53,7 +53,7 @@
 							<li class="nav-item">
 								<hr class="d-lg-none" />
 								<a class="nav-link d-lg-none" href="#">Home</a>
-								<a class="btn btn-primary d-none d-lg-inline" href="#">Home</a>
+								<a class="btn btn-primary d-none d-lg-inline me-2" href="#">Home</a>
 							</li>
 
 							<!-- Tambah Buku -->
@@ -62,7 +62,7 @@
 								<a class="nav-link d-lg-none text-primary" href="#"
 									>Tambah Buku</a
 								>
-								<a class="btn btn-outline-primary d-none d-lg-inline" href="#"
+								<a class="btn btn-outline-primary d-none d-lg-inline me-2" href="#"
 									>Tambah Buku</a
 								>
 							</li>
@@ -71,7 +71,7 @@
 							<li class="nav-item">
 								<hr class="d-lg-none" />
 								<a class="nav-link d-lg-none text-danger" href="#">Logout</a>
-								<a class="btn btn-danger d-none d-lg-inline" href="index.html"
+								<a class="btn btn-danger d-none d-lg-inline me-2" href="index.html"
 									>Logout</a
 								>
 							</li>
@@ -111,6 +111,10 @@
 				</div>
 			</section>
 		</main>
+
+		<footer class="footer" id="footer">
+			
+		</footer>
 	</body>
 
 	<!-- bootstrap -->

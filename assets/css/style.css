@@ -24,3 +24,11 @@ body main .card .left-line {
 body main .card #error {
     display: none;
 }
+
+body main .card .info-login h2 {
+    font-size: 20px;
+}
+
+body main .card .info-login p {
+    font-size: 16px;
+}

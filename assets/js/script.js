@@ -13,7 +13,7 @@ function login() {
     // verifikasi email dan password
     if (formEmail == email && formPassword == password) {
         error.style.display = "none"; // memastikan masih kosong
-        window.location = 'dashboard.html'; // pindah halaman
+        window.location = 'dashboard.php'; // pindah halaman
         return false; // mencegah reload
     } else {
         error.innerHTML = "Email atau Password Salah";
