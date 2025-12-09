@@ -29,7 +29,7 @@
 				</div>
 
 				<?php if (isset($_GET['error'])): ?>
-					<div class="alert alert-danger text-center text-capitalize auto-hide text-black mt-2">
+					<div class="alert alert-danger text-center text-capitalize auto-hide mt-2">
 						<?php
 						$message = match ($_GET['error']) {
 							'hapus' => 'gagal menghapus buku',
@@ -44,7 +44,7 @@
 				<?php endif; ?>
 
 				<?php if (isset($_GET['success'])): ?>
-					<div class="alert alert-success text-center text-capitalize auto-hide text-black mt-2">
+					<div class="alert alert-success text-center text-capitalize auto-hide mt-2">
 						<?php
 						$message = match ($_GET['success']) {
 							'hapus' => 'berhasil menghapus buku',
